@@ -1,0 +1,83 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Clean white background */
+    color: #333333; /* Neutral dark gray text */
+}
+
+/* Header styles */
+header {
+    background-color: #e0e0e0; /* Light gray background */
+    color: #333333; /* Neutral dark gray text */
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Footer styles */
+footer {
+    background-color: #e0e0e0; /* Light gray background */
+    color: #333333; /* Neutral dark gray text */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8em;
+}
+
+/* Main content styles */
+main {
+    margin: 20px;
+    padding-bottom: 50px; /* To avoid footer overlap */
+}
+
+/* Section titles */
+h2 {
+    border-bottom: 2px solid #cccccc; /* Soft gray border */
+    padding-bottom: 5px;
+    color: #333333; /* Neutral dark gray text */
+}
+
+/* Articles styles */
+article {
+    background-color: #f9f9f9; /* Very light gray for contrast */
+    border: 1px solid #dddddd; /* Subtle border */
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05); /* Light shadow */
+}
+
+/* Code styling */
+pre code {
+    display: block;
+    background-color: #f2f2f2; /* Light gray background for code blocks */
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    overflow-x: auto;
+    color: #555555; /* Medium gray text for code */
+}
+
+/* Links */
+a {
+    color: #555555; /* Medium gray link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Custom styling for lists */
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,100 @@
+/* Apply a background color and set the font for the entire page */
+body {
+    font-family: 'Arial', sans-serif; /* Sets a clean, readable font */
+    background-color: #fdf8f0; /* Light cream background for warmth */
+    color: #333; /* Dark gray text for good contrast */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the main header (recipe name) */
+h1 {
+    font-family: 'Georgia', serif; /* Elegant serif font */
+    font-size: 2.5em; /* Bigger font size */
+    color: #6b3f1b; /* Chocolate brown color */
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the description paragraph */
+p {
+    font-size: 1.2em; /* Slightly larger text for readability */
+    line-height: 1.6; /* Better spacing between lines */
+    max-width: 800px; /* Limits width for better readability */
+    margin: 20px auto; /* Centers the paragraph */
+    text-align: justify; /* Aligns text for a clean block */
+}
+
+/* Style section headers (Ingredients and Method) */
+h2 {
+    font-size: 2em;
+    color: #4a2a15; /* Rich dark brown */
+    border-bottom: 2px solid #d4a373; /* Gold accent for a refined look */
+    padding-bottom: 5px;
+    margin: 30px auto 10px;
+    text-align: left;
+    max-width: 800px;
+}
+
+/* Style unordered and ordered lists */
+ul, ol {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 0 20px; /* Adds padding on the sides for better spacing */
+    font-size: 1.1em;
+}
+
+/* Style individual list items */
+li {
+    margin: 5px 0;
+}
+
+/* Add styling to list bullet points and numbers */
+ul li {
+    list-style-type: circle;
+    color: #6b3f1b;
+}
+
+ol li {
+    list-style-type: decimal;
+}
+
+/* Center the entire page content */
+body > * {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Add some hover effects for interactivity */
+li:hover {
+    color: #d65a31; /* Light orange highlight */
+    cursor: pointer; /* Adds a pointer for visual cue */
+}
+/* Set a background color or image for the body */
+body {
+    background-color: #f9f5f0; /* Light beige background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the recipe image */
+.recipe-image {
+    display: block;
+    max-width: 50%; /* Adjust the width as needed */
+    height: auto;
+    margin: 20px auto; /* Centers the image horizontally */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Center the text and image container */
+.recipe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Centers the text */
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 0 20px; /* Adds some padding for spacing */
+}

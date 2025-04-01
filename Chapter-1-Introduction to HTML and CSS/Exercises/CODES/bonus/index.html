@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Defines the character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the page responsive -->
+    <title>HTML & CSS Quick Reference Guide</title> <!-- Sets the title of the page -->
+    <link rel="stylesheet" href="styles.css"> <!-- Links the external CSS file -->
+</head>
+<body>
+    <header>
+        <h1>HTML & CSS Quick Reference Guide</h1> <!-- Main title of the webpage -->
+    </header>
+    <main>
+        <!-- Section for HTML tags -->
+        <section>
+            <h2>HTML Tags</h2>
+            <!--  about <h1> to <h6> tags -->
+            <article>
+                <h3>&lt;h1&gt; to &lt;h6&gt;</h3> <!-- Subheading for HTML headings -->
+                <p>Defines HTML headings. &lt;h1&gt; is the highest level, &lt;h6&gt; is the lowest.</p>
+                <pre><code>&lt;h1&gt;This is a heading&lt;/h1&gt;</code></pre> <!-- Code example -->
+            </article>
+            <!--  about <p> tag -->
+            <article>
+                <h3>&lt;p&gt;</h3>
+                <p>Defines a paragraph.</p>
+                <pre><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code></pre> <!-- Code example -->
+            </article>
+            <!--  about <a> tag -->
+            <article>
+                <h3>&lt;a&gt;</h3>
+                <p>Defines a hyperlink.</p>
+                <pre><code>&lt;a href="https://www.example.com"&gt;This is a link&lt;/a&gt;</code></pre> <!-- Code example -->
+            </article>
+            <!--  about <img> tag -->
+            <article>
+                <h3>&lt;img&gt;</h3>
+                <p>Defines an image.</p>
+                <pre><code>&lt;img src="image.jpg" alt="Description"&gt;</code></pre> <!-- Code example -->
+            </article>
+            <!--  about <ul> and <li> tags -->
+            <article>
+                <h3>&lt;ul&gt; and &lt;li&gt;</h3>
+                <p>Defines an unordered list.</p>
+                <pre><code>&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;</code></pre> <!-- Code example -->
+            </article>
+            <!--  about <ol> and <li> tags -->
+            <article>
+                <h3>&lt;ol&gt; and &lt;li&gt;</h3>
+                <p>Defines an ordered list.</p>
+                <pre><code>&lt;ol&gt;
+    &lt;li&gt;First item&lt;/li&gt;
+    &lt;li&gt;Second item&lt;/li&gt;
+&lt;/ol&gt;</code></pre> <!-- Code example -->
+            </article>
+            <!--  about <div> tag -->
+            <article>
+                <h3>&lt;div&gt;</h3>
+                <p>Defines a division or section.</p>
+                <pre><code>&lt;div&gt;This is a division.&lt;/div&gt;</code></pre> <!-- Code example -->
+            </article>
+            <!--  about <span> tag -->
+            <article>
+                <h3>&lt;span&gt;</h3>
+                <p>Defines a section in a document.</p>
+                <pre><code>&lt;span&gt;This is a span.&lt;/span&gt;</code></pre> <!-- Code example -->
+            </article>
+            <!--  about <form> tag -->
+            <article>
+                <h3>&lt;form&gt;</h3>
+                <p>Defines an HTML form for user input.</p>
+                <pre><code>&lt;form&gt;
+    &lt;input type="text" placeholder="Enter text"&gt; <!-- Text input field -->
+    &lt;input type="submit" value="Submit"&gt; <!-- Submit button -->
+&lt;/form&gt;</code></pre>
+            </article>
+            <!--  about <table> tag -->
+            <article>
+                <h3>&lt;table&gt;</h3>
+                <p>Defines a table.</p>
+                <pre><code>&lt;table&gt;
+    &lt;tr&gt; <!-- Table row -->
+        &lt;th&gt;Header&lt;/th&gt; <!-- Table header cell -->
+        &lt;th&gt;Header&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Data&lt;/td&gt; <!-- Table data cell -->
+        &lt;td&gt;Data&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+            </article>
+        </section>
+        <!-- Section for CSS properties -->
+        <section>
+            <h2>CSS Properties</h2>
+            <!--  about color property -->
+            <article>
+                <h3>color</h3>
+                <p>Sets the color of text.</p>
+                <pre><code>p {
+    color: blue; /* Text will be blue */
+}</code></pre>
+            </article>
+            <!--  about background-color property -->
+            <article>
+                <h3>background-color</h3>
+                <p>Sets the background color of an element.</p>
+                <pre><code>p {
+    background-color: yellow; /* Background will be yellow */
+}</code></pre>
+            </article>
+            <!--  about font-family property -->
+            <article>
+                <h3>Font family</h3>
+                <p>Sets the font family for text.</p>
+                <pre><code>p {
+    font-family: Arial, sans-serif; /* Text will use Arial or a similar sans-serif font */
+}</code></pre>
+            </article>
+            <!--  about font-size property -->
+            <article>
+                <h3>Font size</h3>
+                <p>Sets the font size of text.</p>
+                <pre><code>p {
+    font-size: 16px; /* Text size will be 16 pixels */
+}</code></pre>
+            </article>
+            <!--  about text-align property -->
+            <article>
+                <h3>text-align</h3>
+                <p>Specifies the horizontal alignment of text.</p>
+                <pre><code>p {
+    text-align: center; /* Text will be centered */
+}</code></pre>
+            </article>
+            <!--  about border property -->
+            <article>
+                <h3>border</h3>
+                <p>Sets the border properties of an element.</p>
+                <pre><code>p {
+    border: 1px solid black; /* Text will have a solid black border */
+}</code></pre>
+            </article>
+            <!--  about margin property -->
+            <article>
+                <h3>margin</h3>
+                <p>Sets the margin properties of an element.</p>
+                <pre><code>p {
+    margin: 10px; /* Text will have a 10-pixel margin */
+}</code></pre>
+            </article>
+            <!--  about padding property -->
+            <article>
+                <h3>padding</h3>
+                <p>Sets the padding properties of an element.</p>
+                <pre><code>p {
+    padding: 10px; /* Text will have 10-pixel padding */
+}</code></pre>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2020 HTML & CSS Quick Reference Guide</p> <!-- Footer with copyright information -->
+    </footer>
+</body>
+</html>

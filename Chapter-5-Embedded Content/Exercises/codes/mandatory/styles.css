@@ -1,0 +1,49 @@
+/* Reset margins, padding, and box-sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the body to set the background and center content */
+body {
+    min-height: 100vh; /* Ensures the body fills the full height of the viewport */
+    font-family: Arial, sans-serif; /* Sets a clean and modern font style */
+    background: url('images/R.jpg') no-repeat center center fixed; /* Applies the background image */
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    display: flex; /* Enables Flexbox for layout */
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center; /* Vertically centers the content */
+}
+
+/* Container to hold and center the video element */
+.video-container {
+    display: flex; /* Ensures the content inside is centered */
+    justify-content: center; /* Aligns the video horizontally */
+    align-items: center; /* Aligns the video vertically */
+    max-width: 80%; /* Restricts the width of the container for responsiveness */
+    max-height: 80%; /* Restricts the height of the container */
+}
+
+/* Styling for the video element */
+video {
+    border: 5px solid #fff; /* Adds a white border around the video */
+    border-radius: 12px; /* Rounds the corners of the video for a softer look */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow for a modern look */
+    width: 100%; /* Makes the video responsive to the container's width */
+    height: auto; /* Maintains the video's original aspect ratio */
+}
+
+/* Ensure the heading stays at the top of the page */
+h1 {
+    position: absolute; /* Position the heading relative to the page */
+    top: 10px; /* Sets the heading near the top with some spacing */
+    left: 50%; /* Centers the heading horizontally */
+    transform: translateX(-50%); /* Ensures perfect horizontal centering */
+    color: white; /* Sets the font color to white */
+    font-size: 2rem; /* Adjusts the font size */
+    font-family: cursive; /* Sets the font family */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adds a shadow for visibility */
+    margin: 0; /* Removes the default margin of the heading */
+    text-align: center; /* Ensures the text is centered */
+}
