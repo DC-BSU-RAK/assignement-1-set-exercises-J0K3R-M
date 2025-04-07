@@ -1,0 +1,31 @@
+/* General styling for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, #69A1F2, #134EB1); /* Creates a gradient background */
+    color: #fff; /* Sets default text color to white */
+}
+
+/* Styling for the grid that contains audio sample buttons */
+.samples-grid {
+    display: grid; /* Creates a grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Defines 3 columns */
+    gap: 10px; /* Space between grid items */
+}
+
+/* Styling for each sample button */
+.sample-button {
+    padding: 20px; /* Adds space inside the button */
+    border: none; /* Removes default button border */
+    border-radius: 5px; /* Gives buttons rounded corners */
+    background-color: #0056a8; /* Default background color */
+    color: white; /* Default text color */
+    font-size: 16px; /* Adjusts font size */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: all 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+/* Hover effect for sample buttons */
+.sample-button:hover {
+    background-color: #ffcc00; /* Changes background color on hover */
+    color: black; /* Changes text color on hover */
+}
